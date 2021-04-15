@@ -13,6 +13,7 @@
 		14713763262887C8006D70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14713761262887C8006D70C3 /* Main.storyboard */; };
 		14713765262887CA006D70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14713764262887CA006D70C3 /* Assets.xcassets */; };
 		14713768262887CA006D70C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14713766262887CA006D70C3 /* LaunchScreen.storyboard */; };
+		1471377126288D48006D70C3 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471377026288D48006D70C3 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		14713764262887CA006D70C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14713767262887CA006D70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14713769262887CA006D70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1471377026288D48006D70C3 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				1471375B262887C8006D70C3 /* AppDelegate.swift */,
 				1471375D262887C8006D70C3 /* SceneDelegate.swift */,
 				1471375F262887C8006D70C3 /* ViewController.swift */,
+				1471377326288D50006D70C3 /* Model */,
 				14713761262887C8006D70C3 /* Main.storyboard */,
 				14713764262887CA006D70C3 /* Assets.xcassets */,
 				14713766262887CA006D70C3 /* LaunchScreen.storyboard */,
 				14713769262887CA006D70C3 /* Info.plist */,
 			);
 			path = ZGame;
+			sourceTree = "<group>";
+		};
+		1471377326288D50006D70C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1471377026288D48006D70C3 /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 				14713760262887C8006D70C3 /* ViewController.swift in Sources */,
 				1471375C262887C8006D70C3 /* AppDelegate.swift in Sources */,
 				1471375E262887C8006D70C3 /* SceneDelegate.swift in Sources */,
+				1471377126288D48006D70C3 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
